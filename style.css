@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Average+Sans&family=Days+One&family=Gochi+Hand&family=Indie+Flower&family=Poppins:wght@300&display=swap');
+
 @font-face {
     font-family: moqo;
     src: url(/moqo.woff2);
@@ -106,6 +109,7 @@ filter: saturate(1.5);
 nav a.logo h1{
     color: white;
     font-family: gilroy;
+    font-weight:100;
 }
 nav ul li a{
     text-decoration: none;
@@ -180,6 +184,7 @@ background-color: rgb(42, 42, 42);
     font-size: 70px;
     white-space: nowrap;
     font-family: gilroy;
+    font-weight:400;
 text-align: center;
 color: #0d0d0ddd;
 /* padding-right: 20px; */
@@ -209,6 +214,7 @@ padding-bottom: 50px;
 #page2 .facts h1{
     font-family: gilroy;
     font-size: 40px;
+    font-weight:500;
     color: rgb(43, 43, 43);
 
 }
@@ -391,29 +397,6 @@ position: relative;
     font-family: gilroy;
     font-size: 52px;
 }
-    @keyframes anime{
-        0%{
-
-            /* font-weight: 900; */
-            font-stretch: 355%;
-        }
-        /* 30%{
-            font-weight: 700;
-
-        }
-        50%{
-            font-weight: 850;
-
-        }
-        70%{
-            font-weight: 1000;
-
-        } */
-        100%{
-            font-weight: 1000;
-font-stretch: 360%;
-        }
-    }
    
     #main .discussion:hover svg{
         color: rgb(246, 246, 246);
@@ -451,14 +434,7 @@ font-stretch: 360%;
         transform: scale(1.03);
     }
 
-    #page1 .left-one .top-image::after{
-        content: '*';
-        font-size: 80px;
-z-index: 99;
-        color: aqua;
-        position: absolute;
-
-    }
+   
     #page1 .left-one .top-image{
         width: 680px;
         height: 500px;
@@ -642,18 +618,20 @@ z-index: 99;
     } */
   @media (max-width:600px){
     nav{
-        padding: 0 20px;
+        padding: 0 15px;
         height: 70px;
         display: flex;
         align-items: center;
         /* background-color: red; */
     }
     nav .logo img{
-        height: 35px;
+        height: 33px;
         padding: 0;
     }
     nav .logo h1{
-        font-size: 25px;
+        font-size: 22px;
+        font-weight:100;
+        
     }
     nav ul{
          border: none;
@@ -668,11 +646,11 @@ z-index: 99;
     }
     nav ul .main-btn button{
         height: 30px;
-        font-size: 15px;
+        font-size: 14px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 3px 10px;
+        padding: 3px 8px;
     }
     nav ul .main-btn {
         display: flex;
@@ -703,12 +681,13 @@ z-index: 99;
         flex-direction: column-reverse;
     }
     #page1 .content .right-one h1{
-        font-size:50px;
-        padding: 0;
+        font-size:45px;
         text-align: left;
         margin: 0;
-        padding: 40px;
+        padding: 35px;
         padding-right: 40%;
+        font-weight:300;
+        
     }
     #page1 .content .right-one p button svg{
         width: 70px;
@@ -728,15 +707,15 @@ z-index: 99;
         text-align: left;
         margin: 0;
         padding: 0 6%;
-        padding-right: 20%;
+        padding-right: 30%;
     }
     #page1 .content .right-one h1 span{
-        font-size: 50px;
+        font-size: 45px;
     }
     #page1 .content .right-one img{
         position: absolute;
-        top: 57%;
-        left: 20%;
+        top: 55%;
+        left: 18%;
     }
     #page1 .content .left-one .top-image{
         height: 400px;
@@ -746,7 +725,7 @@ z-index: 99;
     }
     #page1 .content .left-one .quality{
         position: absolute;
-        left: 20%;
+        left: 18%;
         top: 87%;
         width: 75%;
     }
@@ -759,7 +738,7 @@ z-index: 99;
         margin: 0;
     }
     #page2{
-        height: 320vh;
+        height: 310vh;
     }
     #page3{
         background-color: rgb(42,42,42);
@@ -785,6 +764,7 @@ z-index: 99;
    }
    #page4 h2{
     font-size: 50px;
+       font-weight:300;
    }
    #page2 .facts h2{
         font-size: 40px;
@@ -824,7 +804,7 @@ padding-bottom: 20px;    }
         color: #1c1c1c;
     }
     #page2 #learning-btn:hover{
-        background-color: rgb(37, 159, 147);
+        background-color: aqua;
         color: black;
     }
     #page2 #learning-btn a{
@@ -1170,7 +1150,7 @@ padding-top: 10px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-image: url('images/mainlogo.png');
+    background-image: url('mainlogo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
