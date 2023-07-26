@@ -685,8 +685,9 @@ position: relative;
         text-align: left;
         margin: 0;
         padding: 35px;
-        padding-right: 40%;
+        padding-right: 50%;
         font-weight:300;
+      line-height:55px;
         
     }
     #page1 .content .right-one p button svg{
@@ -701,12 +702,14 @@ position: relative;
     #page1 .content .right-one p button{
         width: 145px;
         height: 40px;
+      margin-top:30px;
     }
     #page1 .content .right-one p{
         padding: 0;
         text-align: left;
         margin: 0;
         padding: 0 6%;
+      font-size:13px;
         padding-right: 30%;
     }
     #page1 .content .right-one h1 span{
@@ -714,20 +717,23 @@ position: relative;
     }
     #page1 .content .right-one img{
         position: absolute;
-        top: 55%;
+        top: 53%;
         left: 18%;
     }
     #page1 .content .left-one .top-image{
         height: 400px;
-        width: 420px;
-        margin-top: 10%;
+        width: 310px;
+        margin-top: 5%;
+      margin-left:30px;
         
     }
     #page1 .content .left-one .quality{
         position: absolute;
-        left: 18%;
+        left: 14%;
         top: 87%;
+      height:fit-content;
         width: 75%;
+      padding-right:10px;
     }
     #page1 .content .left-one .quality ul li img{
         height: 35px;
@@ -738,7 +744,7 @@ position: relative;
         margin: 0;
     }
     #page2{
-        height: 310vh;
+        height: 380vh;
     }
     #page3{
         background-color: rgb(42,42,42);
@@ -756,15 +762,16 @@ position: relative;
     position: absolute;
     height: 30px;
     width: 100px;
-    top: 45%;
+    top: 75%;
    }
    #page4 h2 img{
     top: 66%;
-
+left:40%;
    }
    #page4 h2{
     font-size: 50px;
        font-weight:300;
+     padding-bottom:0;
    }
    #page2 .facts h2{
         font-size: 40px;
@@ -816,14 +823,14 @@ padding-bottom: 20px;    }
 
     }
     #page3{
-        height: 110vh;
+        height: 140vh;
     }
     #page3 h2 img{
         height: 30px;
-        width: 100px;
+        width: 120px;
         position: absolute;
-        left: 67%;
-        top: 60%;
+        left: 37%;
+        top: 72%;
     }
     #page3 h2{
         font-size: 40px;
