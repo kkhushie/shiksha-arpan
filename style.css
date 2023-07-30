@@ -109,8 +109,11 @@ filter: saturate(1.5);
 nav a.logo h1{
     color: white;
     font-family: gilroy;
-    font-weight:100;
+    font-weight:300;
+    padding-left:5px;
 }
+
+
 nav ul li a{
     text-decoration: none;
     font-weight: 999;
@@ -590,6 +593,7 @@ position: relative;
         text-align: center;
         padding-top: 3%;
         padding-bottom: 2%;
+        font-weight:500;u
       }
       #page3 .testimonionls .three-testimon div{
           display: flex;
@@ -629,7 +633,7 @@ position: relative;
         padding: 0;
     }
     nav .logo h1{
-        font-size: 22px;
+        font-size: 20px;
         font-weight:100;
         
     }
@@ -673,7 +677,7 @@ position: relative;
         width: 25px;
     }
     #page1{
-        height: 170%;
+        height: 150%;
         width: 100%;
     }
     #page1 .content{
@@ -823,7 +827,7 @@ padding-bottom: 20px;    }
 
     }
     #page3{
-        height: 140vh;
+        height: 130vh;
     }
     #page3 h2 img{
         height: 30px;
@@ -835,6 +839,7 @@ padding-bottom: 20px;    }
     #page3 h2{
         font-size: 40px;
         padding: 30px;
+      font-weight:300;
     }
     #page3 .testimonionls .three-testimon{
         display: flex;
